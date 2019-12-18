@@ -1,14 +1,11 @@
 {
-  "name": "type-coverage",
+  "name": "@pre-bundled/type-coverage",
   "version": "2.3.1",
   "description": "A CLI tool to check type coverage for typescript code",
   "repository": "https://github.com/plantain-00/type-coverage.git",
   "author": "york yao <yaoao12306@outlook.com>",
   "license": "MIT",
-  "dependencies": {
-    "minimist": "1.2.0",
-    "type-coverage-core": "^2.3.1"
-  },
+  "dependencies": {},
   "files": [
     "dist",
     "bin"
@@ -16,5 +13,6 @@
   "bin": {
     "type-coverage": "bin/type-coverage"
   },
-  "gitHead": "146b44ee49b1a3441ce777b180875e1af30a0b43"
+  "gitHead": "146b44ee49b1a3441ce777b180875e1af30a0b43",
+  "peerDependencies": {}
 }
