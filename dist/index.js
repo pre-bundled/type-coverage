@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const tslib_1 = require("tslib");
-const minimist_1 = tslib_1.__importDefault(require("minimist"));
+const tslib_1 = require("../pre-bundled/node_modules/tslib");
+const minimist_1 = tslib_1.__importDefault(require("../pre-bundled/node_modules/minimist"));
 const fs = tslib_1.__importStar(require("fs"));
 const util = tslib_1.__importStar(require("util"));
 const path = tslib_1.__importStar(require("path"));
 const packageJson = tslib_1.__importStar(require("../package.json"));
-const type_coverage_core_1 = require("type-coverage-core");
+const type_coverage_core_1 = require("../pre-bundled/node_modules/type-coverage-core");
 let suppressError = false;
 const existsAsync = util.promisify(fs.exists);
 const readFileAsync = util.promisify(fs.readFile);
